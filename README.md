@@ -104,6 +104,7 @@ GameelYTDownloader/
 - **yt-dlp** (Core download engine)
 - **FFmpeg** (Media merging and conversion)
 
+<<<<<<< HEAD
 ---
 
 ## 📄 License
@@ -111,3 +112,45 @@ GameelYTDownloader/
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
+=======
+1. Go to the Releases page of this repository. (https://github.com/gameelaj/Gameel-YT-Downloader/releases/tag/v1.0)
+2. Download the `.zip` file.
+3. Extract it and run `gameelytdownloader.exe`.
+
+Note: FFmpeg is included in the download folder, so no extra installation is needed.
+
+### For Developers (Run from Source)
+
+If you want to modify the code or run it with Python:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/gameelaj/GameelYTDownloader.git
+cd GameelYTDownloader
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application (source lives in `src`):
+
+```bash
+python src/main.py
+```
+
+## 🛠️ Built With
+
+* Python 3.10+
+* Tkinter (Native GUI)
+* yt-dlp (Core download engine)
+* FFmpeg (Media merging and conversion)
+* PyInstaller (Executable compilation)
+
+## 📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
+>>>>>>> b4b3582a8029bfc5e2d616bcfabe5a52c28d608c
