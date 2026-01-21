@@ -2,7 +2,7 @@
 
 A robust, resume-capable YouTube downloader built with **Python** and **Tkinter**. This application provides a modern GUI wrapper for `yt-dlp` and `ffmpeg`, offering advanced features like 4K video merging, exact time clipping, and smart file collision detection.
 
-![App Icon](assets/icon.ico)
+![App Icon](assets/ytdlpGUI.ico)
 
 ## ✨ Key Features
 
