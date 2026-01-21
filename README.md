@@ -12,6 +12,11 @@ A robust, resume-capable YouTube downloader built with **Python** and **Tkinter*
 * **🛡️ Collision Protection**: Uses "Smart Glob" logic to prevent overwriting existing files while ignoring thumbnails.
 * **⚙️ Dependency Check**: Automatically detects if `ffmpeg` is missing and alerts the user.
 
+## 🧠 Technical Challenges Solved
+* **Concurrency**: Implemented Python `threading` to ensure the Tkinter GUI remains responsive during heavy download and FFmpeg merging processes.
+* **State Management**: Developed a custom logic to track `.part` files, allowing the application to safely resume interrupted downloads.
+* **File System Integrity**: Built a "Smart Glob" collision detector to prevent accidental file overwrites while managing multiple temporary media streams.
+
 ## 📂 Project Structure
 
 This project follows a modular source structure:
