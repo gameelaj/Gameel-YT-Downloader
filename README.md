@@ -36,7 +36,7 @@ GameelYTDownloader/
 
 ### For Users (Run the App)
 
-1. Go to the Releases page of this repository.
+1. Go to the Releases page of this repository. (https://github.com/gameelaj/Gameel-YT-Downloader/releases/tag/v1.0)
 2. Download the `.zip` file.
 3. Extract it and run `gameelytdownloader.exe`.
 
